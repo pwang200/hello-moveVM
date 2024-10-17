@@ -5,6 +5,8 @@ edition = "2021"
 
 [dependencies]
 alloy = "0.4.2"
+bytes = "1.7.2"
+move-binary-format = { git = "https://github.com/pwang200/move-on-aptos.git", version = "0.0.3" }
 move-bytecode-verifier = { git = "https://github.com/pwang200/move-on-aptos.git", version = "0.1.0" }
 move-core-types = { git = "https://github.com/pwang200/move-on-aptos.git", version = "0.0.4" }
 move-stdlib = { git = "https://github.com/pwang200/move-on-aptos.git", version = "0.1.1" }
